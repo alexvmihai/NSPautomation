@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" >
+    <test name="OpenHomepageTest" >
+        <classes>
+            <class name="OpenHomepageTest" >
+            </class>
+            </classes>
+    </test>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="LoginTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="SecondTest" >
+        <classes>
+            <class name="SecondTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="Register" >
+        <classes>
+            <class name="RegisterTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
