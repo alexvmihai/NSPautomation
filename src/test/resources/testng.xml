@@ -28,5 +28,11 @@
             </class>
         </classes>
     </test>
+    <test name="Login and Purchase">
+        <classes>
+            <class name="LoginPurchaseTest">
+            </class>
+        </classes>
+    </test>
 
 </suite>

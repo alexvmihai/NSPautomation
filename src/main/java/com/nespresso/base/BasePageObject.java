@@ -1,5 +1,8 @@
 package com.nespresso.base;
 
+import com.nespresso.pages.AccessoriesPageObject;
+import com.nespresso.pages.CapsulePageObject;
+import com.nespresso.pages.MachinePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +17,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePageObject<T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
+
+
 
     protected BasePageObject(WebDriver driver){
         this.driver = driver;
@@ -63,6 +68,10 @@ public class BasePageObject<T> {
     protected String getText(By element) {
         return find(element).getText();
     }
+
+
+
+
 
 
 
