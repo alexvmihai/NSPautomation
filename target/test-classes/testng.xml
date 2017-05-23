@@ -34,5 +34,11 @@
             </class>
         </classes>
     </test>
+    <test name = "Edit Account">
+        <classes>
+            <class name ="EditAccountInfoTest">
+            </class>
+        </classes>
+    </test>
 
 </suite>

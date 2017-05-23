@@ -10,6 +10,9 @@ import org.openqa.selenium.WebDriver;
 public class MyAccountPageObject extends BasePageObject<MyAccountPageObject> {
     private By memberNumber = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[3]/div[2]/div/div[3]");
     private By myAccount = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[1]/strong/span");
+    private By personalInfo = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[2]/a");
+    private By contactPreferences = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[5]/a");
+
     public By registerSuccess = By.cssSelector(".success-msg>ul>li>span");
 
     public MyAccountPageObject(WebDriver driver){
@@ -36,6 +39,13 @@ public class MyAccountPageObject extends BasePageObject<MyAccountPageObject> {
 
     public String getSuccessMsg(){
         return getText(registerSuccess);
+    }
+
+    public AccountInformationPageObject clickPersonalInfo() throws InterruptedException {
+        System.out.println("Clicking on Personal Info...");
+        clickOn(personalInfo);
+        Thread.sleep(5000);
+        return new AccountInformationPageObject(driver);
     }
 
 

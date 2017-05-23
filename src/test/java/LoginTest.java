@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  * Created by alex.mihai on 5/8/2017.
  */
 public class LoginTest extends BaseTest{
-    @Test
+    @Test (priority = 2)
     public void positiveLogInTest(){
         LoginPageObject loginPage = new LoginPageObject(driver);
         String expectedTitle = "My Account";
@@ -31,7 +31,7 @@ public class LoginTest extends BaseTest{
         Assert.assertTrue(accountPage.isCorrectAccountLoaded(expectedMemberNumber), "Profile name is not correct.");
         System.out.println("Successfully logged in ! \nTest passed !");
     }
-    @Test
+    @Test (priority = 1)
     public void negativeLogInTest(){
         LoginPageObject loginPage = new LoginPageObject(driver);
         String expectedErrorMsg = "Invalid login or password.";

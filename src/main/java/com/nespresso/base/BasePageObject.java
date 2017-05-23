@@ -32,7 +32,10 @@ public class BasePageObject<T> {
 
     protected void type(String text, By element){
         find(element).sendKeys(text);
+    }
 
+    protected void deleteText(By element){
+        find(element).clear();
     }
 
     protected void clickOn (By element){

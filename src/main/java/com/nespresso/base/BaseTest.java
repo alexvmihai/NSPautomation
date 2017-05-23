@@ -2,10 +2,7 @@ package com.nespresso.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 /**
  * Created by alex.mihai on 5/8/2017.
@@ -13,16 +10,16 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeClass
+    @BeforeTest
     public void methodSetUp(){
         System.out.println("Test set up !");
         System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver.exe");
         driver = new FirefoxDriver();
     }
 
-//    @AfterClass
-    public void methodTearDown(){
-        System.out.println("Test clean up !");
-        driver.quit();
-    }
+//    @AfterTest
+//    public void methodTearDown(){
+//        System.out.println("Test clean up !");
+//        driver.quit();
+//    }
 }
