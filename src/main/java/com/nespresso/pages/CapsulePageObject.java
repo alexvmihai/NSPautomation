@@ -16,6 +16,7 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     private By livantoQty = By.xpath(".//*[@id='add-to-cart-273']/div/div/div/div[1]/table/tbody/tr[2]/td[5]");
     private By romaAdd = By.xpath(".//*[@id='add-to-cart-272']/div/div/button");
     private By romaQty = By.xpath(".//*[@id='add-to-cart-272']/div/div/div/div[1]/table/tbody/tr[2]/td[5]");
+    private By homepageButton = By.xpath(".//*[@id='header']/div/a/img");
 
     public CapsulePageObject(WebDriver driver) {
         super(driver);
@@ -23,6 +24,12 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
 
     public void waitForCapsulePageToLoad(){
         waitForVisibilityOf(capsuleAddressTree);
+    }
+
+    public HomepageObject clickHomepageLogo(){
+        clickOn(homepageButton);
+        System.out.println("Clicked homepage Button !");
+        return new HomepageObject(driver);
     }
 
     public MachinePageObject clickMachineButton() throws InterruptedException {

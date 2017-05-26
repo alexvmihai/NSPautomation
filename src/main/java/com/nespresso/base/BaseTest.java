@@ -17,9 +17,9 @@ public class BaseTest {
         driver = new FirefoxDriver();
     }
 
-//    @AfterTest
-//    public void methodTearDown(){
-//        System.out.println("Test clean up !");
-//        driver.quit();
-//    }
+    @AfterTest
+    public void methodTearDown(){
+        System.out.println("Test clean up !");
+        driver.quit();
+    }
 }

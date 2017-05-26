@@ -7,21 +7,12 @@
             </class>
             </classes>
     </test>
-
     <test name="LoginTest">
         <classes>
             <class name="LoginTest" >
             </class>
         </classes>
     </test>
-
-    <test name="SecondTest" >
-        <classes>
-            <class name="SecondTest" >
-            </class>
-        </classes>
-    </test>
-
     <test name="Register" >
         <classes>
             <class name="RegisterTest">
@@ -39,6 +30,12 @@
             <class name ="EditAccountInfoTest">
             </class>
         </classes>
+    </test>
+    <test name = "HomepageButton">
+       <classes>
+           <class name  ="HomepageButtonTest">
+           </class>
+       </classes>
     </test>
 
 </suite>

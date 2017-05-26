@@ -24,6 +24,5 @@ public class EditAccountInfoTest extends LoginTest {
         String actualSuccessMessage = accountInfoPage.getAccountSavedMessage();
         Assert.assertTrue(expectedSuccessMessage.equals(actualSuccessMessage), "Success message is not correct.." + "\nExpected: "+ expectedSuccessMessage + "\nActual: "+ actualSuccessMessage);
         System.out.println("Test Passed !");
-
     }
 }

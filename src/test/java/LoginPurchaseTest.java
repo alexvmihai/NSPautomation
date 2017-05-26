@@ -21,6 +21,7 @@ public class LoginPurchaseTest extends BaseTest{
         // Click on Log In button and wait for account page to load
         MyAccountPageObject accountPage = loginPage.clickLoginButton();
         accountPage.waitForAccountPageToLoad();
+        System.out.println("Test Passed !");
     }
 
     @Test(priority = 2)
@@ -84,7 +85,7 @@ public class LoginPurchaseTest extends BaseTest{
         String actualThankYouMessage = orderSuccessPage.getThankYouMessage();
         Assert.assertTrue(expectedOrderSuccessMessage.equals(actualOrderSuccessMessage), "Order received message not correct !" + "\nExpected message: " + expectedOrderSuccessMessage + "\nActual message: "+ actualOrderSuccessMessage);
         Assert.assertTrue(expectedThankYouMessage.equals(actualThankYouMessage), "Thank you message incorrect !" + "\nExpected message: " + expectedThankYouMessage + "\nActual message: " + actualThankYouMessage);
-
+        System.out.println("Test Passed !");
 
 
 
