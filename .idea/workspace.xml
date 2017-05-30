@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bfc8b51-b6c9-41f5-a418-0ebd7696ec94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/SecondTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/base/BaseTest.class" afterPath="$PROJECT_DIR$/target/classes/com/nespresso/base/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/CapsulePageObject.class" afterPath="$PROJECT_DIR$/target/classes/com/nespresso/pages/CapsulePageObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/HomepageObject.class" afterPath="$PROJECT_DIR$/target/classes/com/nespresso/pages/HomepageObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/EditAccountInfoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/EditAccountInfoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/LoginPurchaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/LoginPurchaseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/base/BasePageObject.class" afterPath="$PROJECT_DIR$/target/classes/com/nespresso/base/BasePageObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/MyAccountPageObject.class" afterPath="$PROJECT_DIR$/target/classes/com/nespresso/pages/MyAccountPageObject.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java" afterPath="$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,13 +25,103 @@
   <component name="ExportTestResults" exportFormat="Xml" outputFolder="D:/automation reports" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomepageButtonTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HomepageButtonTest.java">
+      <file leaf-file-name="AddNewAddressTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddNewAddressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="249">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteAddressTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DeleteAddressTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="80" column="43" lean-forward="true" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+              <folding>
+                <element signature="e#2130#2131#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAddressPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/CustomerAddressPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderSuccessPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/OrderSuccessPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewAddressPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/NewAddressPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,16 +169,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/OrderSuccessPageObject.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccountInformationPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/HomepageButtonTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AddNewAddressTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CustomerAddressPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/NewAddressPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/DeleteAddressTest.java" />
       </list>
     </option>
   </component>
@@ -384,62 +469,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Selenium_automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="EditAccountInfoTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Selenium_automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EditAccountInfoTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="HomepageButtonTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Selenium_automation" />
@@ -448,6 +477,62 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomepageButtonTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddNewAddressTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Selenium_automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddNewAddressTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteAddressTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Selenium_automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeleteAddressTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -751,22 +836,25 @@
       <item index="1" class="java.lang.String" itemvalue="TestNG.OpenHomepageTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.D:/Selenium_automation/src/test/resources/testng.xml" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.LoginPurchaseTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTest" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.EditAccountInfoTest" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.HomepageButtonTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.HomepageButtonTest" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.AddNewAddressTest" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.DeleteAddressTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.D:/Selenium_automation/src/test/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.HomepageButtonTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.LoginPurchaseTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.EditAccountInfoTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.DeleteAddressTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.AddNewAddressTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.HomepageButtonTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginPurchaseTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -779,35 +867,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.05.24 at 15h 00m 47s.xml">
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 16m 01s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 18m 30s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 20m 35s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 21m 28s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 22m 15s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewAddressTest - 2017.05.30 at 11h 23m 30s.xml">
+      <configuration name="AddNewAddressTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.05.30 at 11h 30m 35s.xml">
       <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.05.26 at 14h 40m 23s.xml">
-      <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="DeleteAddressTest - 2017.05.30 at 11h 15m 11s.xml">
+      <configuration name="DeleteAddressTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 12h 53m 49s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
+    <history-entry file="DeleteAddressTest - 2017.05.30 at 11h 16m 49s.xml">
+      <configuration name="DeleteAddressTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 12h 55m 25s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 12h 58m 57s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 12h 59m 32s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 13h 00m 58s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 13h 02m 08s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 13h 04m 53s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomepageButtonTest - 2017.05.24 at 13h 08m 02s.xml">
-      <configuration name="HomepageButtonTest" configurationId="TestNG" />
+    <history-entry file="DeleteAddressTest - 2017.05.30 at 11h 24m 15s.xml">
+      <configuration name="DeleteAddressTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -870,55 +958,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/LoginPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#775#776#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
@@ -977,8 +1016,8 @@
         <state relative-caret-position="357">
           <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1129,14 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/RegisterPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/LoginPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1146,35 +1177,6 @@
             <element signature="e#713#714#0" expanded="false" />
             <element signature="e#747#748#0" expanded="false" />
             <element signature="e#775#776#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/OrderSuccessPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#985#986#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,66 +1192,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccessoriesPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccountInformationPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1262,14 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/automation reports/1.0.294.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2434">
@@ -1278,13 +1216,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccountInformationPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HomepageButtonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="402">
           <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/RegisterPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/OrderSuccessPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="80" column="43" lean-forward="true" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddNewAddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/CustomerAddressPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nespresso/pages/NewAddressPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/automation reports/1.0.294l.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3009">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeleteAddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

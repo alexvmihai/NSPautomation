@@ -37,5 +37,17 @@
            </class>
        </classes>
     </test>
+    <test name = "Add New Address Test">
+        <classes>
+            <class name ="AddNewAddressTest">
+            </class>
+        </classes>
+    </test>
+    <test name = "Delete Address Test">
+        <classes>
+            <class name ="DeleteAddressTest">
+            </class>
+        </classes>
+    </test>
 
 </suite>

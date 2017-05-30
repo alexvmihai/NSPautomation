@@ -12,6 +12,7 @@ public class MyAccountPageObject extends BasePageObject<MyAccountPageObject> {
     private By myAccount = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[1]/strong/span");
     private By personalInfo = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[2]/a");
     private By contactPreferences = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[5]/a");
+    private By myAddresses = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[3]/a");
 
     public By registerSuccess = By.cssSelector(".success-msg>ul>li>span");
 
@@ -47,6 +48,15 @@ public class MyAccountPageObject extends BasePageObject<MyAccountPageObject> {
         Thread.sleep(5000);
         return new AccountInformationPageObject(driver);
     }
+
+    public CustomerAddressPageObject clickMyAddresses() throws InterruptedException {
+        System.out.println("Clicking on My Addresses...");
+        clickOn(myAddresses);
+        Thread.sleep(5000);
+        return new CustomerAddressPageObject(driver);
+    }
+
+
 
 
 

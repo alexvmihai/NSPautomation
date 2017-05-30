@@ -72,6 +72,17 @@ public class BasePageObject<T> {
         return find(element).getText();
     }
 
+    public String getSource(){
+        return driver.getPageSource();
+    }
+
+    public void acceptPrompt() throws InterruptedException{
+        Thread.sleep(4000);
+        driver.switchTo().alert().accept();
+        Thread.sleep(4000);
+    }
+
+
 
 
 
