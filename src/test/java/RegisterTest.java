@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class RegisterTest extends BaseTest {
 
     @Test
-    public void Register(){
+    public void Register() throws InterruptedException {
 
         String firstName = "Smoke";
         String lastName = "Smoke";
@@ -31,12 +31,11 @@ public class RegisterTest extends BaseTest {
         String remark = "This is a test remark.";
         String expectedTitle = "Nespresso RU - Coffee and Espresso Machines";
         String expectedSuccessMsg = "Thank you for registering with Nespresso RU.";
-
-
         RegisterPageObject registerPage = new RegisterPageObject(driver);
 
         //Open Register Page
         registerPage.openRegisterPage();
+        registerPage.acceptPrompt();
 
         //Fill in the register form
         registerPage.fillInRegisterForm(firstName, lastName, email, password, civility, city, street, building, postalCode, remark, phone );

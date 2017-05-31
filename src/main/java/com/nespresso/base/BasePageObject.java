@@ -3,10 +3,9 @@ package com.nespresso.base;
 import com.nespresso.pages.AccessoriesPageObject;
 import com.nespresso.pages.CapsulePageObject;
 import com.nespresso.pages.MachinePageObject;
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.nespresso.pages.ShoppingCartPageObject;
+import org.openqa.selenium.*;
+import org.openqa.selenium.security.UserAndPassword;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,8 +17,6 @@ public class BasePageObject<T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
-
-
     protected BasePageObject(WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, 20);
@@ -28,6 +25,23 @@ public class BasePageObject<T> {
     protected T getPage(String url){
         driver.get(url);
         return (T) this;
+    }
+
+    public boolean isAlertPresent(){
+        try
+        {
+            driver.switchTo().alert();
+            return true;
+        }
+        catch(NoAlertPresentException Ex){
+            return false;
+        }
+    }
+    public void acceptPrompt() throws InterruptedException {
+        if (isAlertPresent()){
+            driver.switchTo().alert().accept();
+        }
+        Thread.sleep(6000);
     }
 
     protected void type(String text, By element){
@@ -75,20 +89,5 @@ public class BasePageObject<T> {
     public String getSource(){
         return driver.getPageSource();
     }
-
-    public void acceptPrompt() throws InterruptedException{
-        Thread.sleep(4000);
-        driver.switchTo().alert().accept();
-        Thread.sleep(4000);
-    }
-
-
-
-
-
-
-
-
-
 
 }

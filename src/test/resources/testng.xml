@@ -49,5 +49,11 @@
             </class>
         </classes>
     </test>
+    <test name = "Register Checkout Purchase test">
+        <classes>
+            <class name ="RegisterCheckoutPurchaseTest">
+            </class>
+        </classes>
+    </test>
 
 </suite>

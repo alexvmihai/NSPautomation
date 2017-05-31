@@ -10,14 +10,14 @@ import org.testng.annotations.*;
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeTest
+    @BeforeClass
     public void methodSetUp(){
         System.out.println("Test set up !");
         System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver.exe");
         driver = new FirefoxDriver();
     }
 
-    @AfterTest
+    @AfterClass
     public void methodTearDown(){
         System.out.println("Test clean up !");
         driver.quit();

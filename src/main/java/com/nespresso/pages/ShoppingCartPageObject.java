@@ -25,5 +25,11 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
         return new CheckoutPageObject(driver);
     }
 
+    public CheckoutPageObject proceedToLogInRegister(){
+        clickOn(proceedToCheckoutButton);
+        System.out.println("Proceeding to the register/login page...");
+        return new CheckoutPageObject(driver);
+    }
+
 
 }

@@ -9,9 +9,10 @@ import org.testng.annotations.Test;
  */
 public class HomepageButtonTest extends BaseTest {
     @Test
-    public void HomepageButtonTest() {
+    public void HomepageButtonTest() throws InterruptedException {
         HomepageObject homePage = new HomepageObject(driver);
         homePage.openHomePage();
+        homePage.acceptPrompt();
         homePage.waitForHomepageToLoad();
         CapsulePageObject capsulePage = homePage.clickCapsuleButton();
         capsulePage.waitForCapsulePageToLoad();

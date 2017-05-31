@@ -16,7 +16,7 @@ public class CheckoutPageObject extends BasePageObject<CheckoutPageObject>{
     private By paymentContinueButton = By.xpath(".//*[@id='payment-buttons-container']/button");
     private By orderRemark = By.xpath(".//*[@id='remark']");
     private By placeOrderButton = By.xpath(".//*[@id='review-buttons-container']/button");
-
+    private By registerButtonCheckout = By.xpath(".//*[@id='onepage-guest-register-button']");
 
     protected CheckoutPageObject(WebDriver driver) {
         super(driver);
@@ -29,7 +29,7 @@ public class CheckoutPageObject extends BasePageObject<CheckoutPageObject>{
     public void clickOnBillingContinueButton() throws InterruptedException{
         clickOn(billingContinueButton);
         System.out.println("Clicking on continue button from Billing section...");
-        Thread.sleep(4000);
+        Thread.sleep(9000);
     }
 
     public void selectStandardShipping(){
@@ -40,7 +40,7 @@ public class CheckoutPageObject extends BasePageObject<CheckoutPageObject>{
     public void clickOnShippingContinueButton() throws InterruptedException{
         clickOn(shippingContinueButton);
         System.out.println("Clicking on continue button from Shipping method section...");
-        Thread.sleep(4000);
+        Thread.sleep(9000);
     }
 
     public void selectCashOnDelivery(){
@@ -51,7 +51,7 @@ public class CheckoutPageObject extends BasePageObject<CheckoutPageObject>{
     public void clickOnPaymentContinueButton() throws InterruptedException{
         clickOn(paymentContinueButton);
         System.out.println("Clicking on continue button from the Payment info section...");
-        Thread.sleep(4000);
+        Thread.sleep(9000);
     }
 
     public void writeOrderRemark(String remark){
@@ -63,6 +63,18 @@ public class CheckoutPageObject extends BasePageObject<CheckoutPageObject>{
         clickOn(placeOrderButton);
         System.out.println("Placing order...");
         return new OrderSuccessPageObject(driver);
+    }
+
+
+    public RegisterPageObject clickRegisterButtonCheckout(){
+        System.out.println("Clicking on register button...");
+        clickOn(registerButtonCheckout);
+        return new RegisterPageObject(driver);
+    }
+
+    public void waitForCheckoutLoginPageToLoad(){
+        System.out.println("Waiting for Login Checkout page to load...");
+        waitForVisibilityOf(registerButtonCheckout);
     }
 
 

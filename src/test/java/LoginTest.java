@@ -9,13 +9,14 @@ import org.testng.annotations.Test;
  */
 public class LoginTest extends BaseTest{
     @Test (priority = 2)
-    public void positiveLogInTest(){
+    public void positiveLogInTest() throws InterruptedException {
         LoginPageObject loginPage = new LoginPageObject(driver);
         String expectedTitle = "My Account";
         String expectedMemberNumber = "Your member number is: 1269998";
 
         // Open Nespresso Login page
         loginPage.openLogInPage();
+        loginPage.acceptPrompt();
 
         // Fill in email and password
         loginPage.fillInEmailAndPassword("smoke_test2@mailinator.com", "Password123");
@@ -32,12 +33,13 @@ public class LoginTest extends BaseTest{
         System.out.println("Successfully logged in ! \nTest passed !");
     }
     @Test (priority = 1)
-    public void negativeLogInTest(){
+    public void negativeLogInTest() throws InterruptedException {
         LoginPageObject loginPage = new LoginPageObject(driver);
         String expectedErrorMsg = "Invalid login or password.";
 
         // Open Nespresso Login page
         loginPage.openLogInPage();
+        loginPage.acceptPrompt();
 
         // Fill in email and password
         loginPage.fillInEmailAndPassword("incorrect@email.com", "Password123");
