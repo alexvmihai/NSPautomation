@@ -33,7 +33,7 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     }
 
     public MachinePageObject clickMachineButton() throws InterruptedException {
-        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-400)");
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-700)");
         Thread.sleep(500);
         System.out.println("Clicking on machine button...");
         clickOn(machineButton);
