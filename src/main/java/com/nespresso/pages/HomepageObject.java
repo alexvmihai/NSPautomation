@@ -18,6 +18,7 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
     protected By cartButtonArrow = By.xpath(".//*[@id='header']/div/div[3]/div[3]/div[2]/div[1]/em[2]");
     protected By viewCartButton = By.xpath(".//*[@id='header-cart']/div[3]/div[4]/ul/li/a");
 
+
     public HomepageObject(WebDriver driver){
         super(driver);
     }
@@ -36,12 +37,9 @@ public class HomepageObject extends BasePageObject<HomepageObject> {
         return new CapsulePageObject(driver);
     }
 
-    public ShoppingCartPageObject openShoppingCart() throws InterruptedException{
-        clickOn(cartButtonArrow);
-        Thread.sleep(2000);
-        clickOn(viewCartButton);
-        return new ShoppingCartPageObject(driver);
-    }
+
+
+
 
 
 }

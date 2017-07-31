@@ -16,6 +16,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePageObject<T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
+    protected By cartStatus = By.xpath(".//*[@id='header']/div/div[3]/div[3]/div[2]/div[1]/span");
+    protected By cartHeader = By.xpath(".//*[@id='header-cart']/div[3]");
+    protected By cartButtonArrow = By.xpath(".//*[@id='header']/div/div[3]/div[3]/div[2]/div[1]/em[2]");
+    protected By viewShoppingCart = By.xpath(".//*[@id='header-cart']/div[3]/div[4]/ul/li/a");
 
     protected BasePageObject(WebDriver driver){
         this.driver = driver;
@@ -86,8 +90,38 @@ public class BasePageObject<T> {
         return find(element).getText();
     }
 
+    protected String parseSubtotal(By element){
+        String a = find(element).getText();
+        String[] b = a.split(",");
+        String c = b[0] + b[1];
+        String d = c.substring(0, c.indexOf("."));
+        String e = d.substring(4);
+        return e;
+    }
+
+    protected String getValue(By element){
+        return find(element).getAttribute("value");
+    }
+
     public String getSource(){
         return driver.getPageSource();
+    }
+
+
+    public String getCartHeaderText(){
+        return getText(cartStatus);
+    }
+
+    public String getCartBodyText(){
+        clickOn(cartButtonArrow);
+        return getText(cartHeader);
+    }
+
+    public ShoppingCartPageObject openShoppingCart() throws InterruptedException{
+        clickOn(cartButtonArrow);
+        Thread.sleep(2000);
+        clickOn(viewShoppingCart);
+        return new ShoppingCartPageObject(driver);
     }
 
 }

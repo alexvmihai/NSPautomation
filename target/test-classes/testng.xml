@@ -13,12 +13,6 @@
             </class>
         </classes>
     </test>
-    <test name="Register" >
-        <classes>
-            <class name="RegisterTest">
-            </class>
-        </classes>
-    </test>
     <test name="Login and Purchase">
         <classes>
             <class name="LoginPurchaseTest">
@@ -52,6 +46,12 @@
     <test name = "Register Checkout Purchase test">
         <classes>
             <class name ="RegisterCheckoutPurchaseTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Register" >
+        <classes>
+            <class name="RegisterTest">
             </class>
         </classes>
     </test>
