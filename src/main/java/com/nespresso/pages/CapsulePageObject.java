@@ -45,18 +45,18 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     public void addLivanto() throws InterruptedException {
         System.out.println("Adding 100 Livanto capsules to cart...");
         clickOn(livantoAdd);
-        Thread.sleep(2000);
+        Thread.sleep(10000);
         clickOn(livantoQty);
-        Thread.sleep(2000);
+        Thread.sleep(15000);
         System.out.println("Capsules added !");
     }
 
     public void addRoma() throws InterruptedException {
         System.out.println("Adding 100 Roma capsules to cart...");
         clickOn(romaAdd);
-        Thread.sleep(2000);
+        Thread.sleep(10000);
         clickOn(romaQty);
-        Thread.sleep(2000);
+        Thread.sleep(15000);
         System.out.println("Capsules added !");
     }
 

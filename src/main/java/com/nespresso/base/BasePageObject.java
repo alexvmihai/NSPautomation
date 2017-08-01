@@ -118,6 +118,7 @@ public class BasePageObject<T> {
     }
 
     public ShoppingCartPageObject openShoppingCart() throws InterruptedException{
+        Thread.sleep(5000);
         clickOn(cartButtonArrow);
         Thread.sleep(2000);
         clickOn(viewShoppingCart);

@@ -29,6 +29,9 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
     private By emptyCartHeader = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/h1");
     private By emptyCartP1 = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[3]/p[1]");
     private By emptyCartP2 = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[3]/p[2]");
+    private By couponSuccessMessage = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/ul/li/ul/li/span");
+    private By discountText = By.xpath(".//*[@id='shopping-cart-totals-table']/tbody/tr[2]/td[2]/span");
+    private By cancelButton = By.xpath(".//*[@id='discount-coupon-form']/div/div/div[2]/div/button[2]");
 
 
     public ShoppingCartPageObject(WebDriver driver) {
@@ -229,6 +232,36 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
         String finalMsg = qty + " items: " + grandTotalText;
         return finalMsg;
     }
+
+    public void typeCouponCode(String code){
+        System.out.println("Typing coupon code...");
+        driver.findElement(couponBox).clear();
+        type(code, couponBox);
+    }
+
+    public void clickApply() throws InterruptedException {
+        System.out.println("Clicking on apply...");
+        clickOn(applyButton);
+        Thread.sleep(15000);
+    }
+
+    public String getCouponMsg(){
+        return getText(couponSuccessMessage);
+    }
+
+    public String getDiscountText(){
+        return getText(discountText);
+    }
+
+    public void clickCancel() throws InterruptedException {
+        System.out.println("Clicking on cancel...");
+        clickOn(cancelButton);
+        Thread.sleep(15000);
+    }
+
+
+
+
 
 
 
