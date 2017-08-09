@@ -1,6 +1,6 @@
-package com.nespresso.pages;
+package com.nsp.pages;
 
-import com.nespresso.base.BasePageObject;
+import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

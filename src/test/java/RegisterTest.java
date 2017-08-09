@@ -1,6 +1,6 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.MyAccountPageObject;
-import com.nespresso.pages.RegisterPageObject;
+import com.nsp.base.BaseTest;
+import com.nsp.pages.MyAccountPageObject;
+import com.nsp.pages.RegisterPageObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

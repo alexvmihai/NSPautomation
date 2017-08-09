@@ -1,9 +1,7 @@
-package com.nespresso.pages;
+package com.nsp.pages;
 
-import com.nespresso.base.BasePageObject;
+import com.nsp.base.BasePageObject;
 import org.openqa.selenium.*;
-
-import java.util.List;
 
 /**
  * Created by alex.mihai on 5/17/2017.

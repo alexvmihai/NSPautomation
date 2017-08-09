@@ -1,7 +1,5 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.*;
-import org.apache.xpath.SourceTree;
-import org.openqa.selenium.JavascriptExecutor;
+import com.nsp.base.BaseTest;
+import com.nsp.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

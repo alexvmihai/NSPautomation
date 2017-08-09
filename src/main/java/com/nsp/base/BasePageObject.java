@@ -1,11 +1,7 @@
-package com.nespresso.base;
+package com.nsp.base;
 
-import com.nespresso.pages.AccessoriesPageObject;
-import com.nespresso.pages.CapsulePageObject;
-import com.nespresso.pages.MachinePageObject;
-import com.nespresso.pages.ShoppingCartPageObject;
+import com.nsp.pages.ShoppingCartPageObject;
 import org.openqa.selenium.*;
-import org.openqa.selenium.security.UserAndPassword;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;

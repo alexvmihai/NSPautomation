@@ -1,11 +1,9 @@
-package com.nespresso.pages;
+package com.nsp.pages;
 
-import com.nespresso.base.BasePageObject;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 /**
  * Created by alex.mihai on 5/12/2017.

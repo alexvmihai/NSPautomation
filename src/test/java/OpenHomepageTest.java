@@ -1,5 +1,5 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.HomepageObject;
+import com.nsp.base.BaseTest;
+import com.nsp.pages.HomepageObject;
 import org.testng.annotations.Test;
 
 /**
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class OpenHomepageTest extends BaseTest{
     @Test
     public void openHomepage() throws InterruptedException {
-        // Open nespresso homepage
+        // Open nsp homepage
 
         HomepageObject homepage = new HomepageObject(driver);
         homepage.openHomePage();

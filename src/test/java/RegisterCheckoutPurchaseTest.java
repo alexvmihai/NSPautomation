@@ -1,5 +1,5 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.*;
+import com.nsp.base.BaseTest;
+import com.nsp.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

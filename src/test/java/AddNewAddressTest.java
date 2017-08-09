@@ -1,8 +1,6 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.AccountInformationPageObject;
-import com.nespresso.pages.CustomerAddressPageObject;
-import com.nespresso.pages.MyAccountPageObject;
-import com.nespresso.pages.NewAddressPageObject;
+import com.nsp.pages.CustomerAddressPageObject;
+import com.nsp.pages.MyAccountPageObject;
+import com.nsp.pages.NewAddressPageObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

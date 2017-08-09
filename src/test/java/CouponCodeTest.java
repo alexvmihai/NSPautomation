@@ -1,7 +1,7 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.CapsulePageObject;
-import com.nespresso.pages.HomepageObject;
-import com.nespresso.pages.ShoppingCartPageObject;
+import com.nsp.base.BaseTest;
+import com.nsp.pages.CapsulePageObject;
+import com.nsp.pages.HomepageObject;
+import com.nsp.pages.ShoppingCartPageObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,6 +1,5 @@
-import com.nespresso.base.BaseTest;
-import com.nespresso.pages.AccountInformationPageObject;
-import com.nespresso.pages.MyAccountPageObject;
+import com.nsp.pages.AccountInformationPageObject;
+import com.nsp.pages.MyAccountPageObject;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;

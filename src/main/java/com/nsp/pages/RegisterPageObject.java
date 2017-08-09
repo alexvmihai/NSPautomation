@@ -1,19 +1,16 @@
-package com.nespresso.pages;
+package com.nsp.pages;
 
-import com.nespresso.base.BasePageObject;
-import org.apache.xpath.SourceTree;
+import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.net.URL;
 
 /**
  * Created by alex.mihai on 5/11/2017.
  */
 public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
-    private static final String URL = "https://nespresso-admin:o123123@www-pprd-ru.nespresso.com/ru/en/customer/account/create/";
-    private static final String intURL = "https://nespresso-admin:o123123@www-int-ru.nespresso.com/ru/en/customer/account/create/";
-    private static final String prodURL = "https://www.nespresso.com/ru/en/customer/account/create/";
+    private static final String URL = "https://nsp-admin:o123123@www-pprd-ru.nsp.com/ru/en/customer/account/create/";
+    private static final String intURL = "https://nsp-admin:o123123@www-int-ru.nsp.com/ru/en/customer/account/create/";
+    private static final String prodURL = "https://www.nsp.com/ru/en/customer/account/create/";
     //General Info
     private By firstNameField = By.cssSelector("#firstname");
     private By lastNameField = By.cssSelector("#lastname");
