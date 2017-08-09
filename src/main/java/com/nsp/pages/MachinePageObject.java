@@ -28,6 +28,7 @@ public class MachinePageObject extends BasePageObject <MachinePageObject> {
         Thread.sleep(2000);
         clickOn(uMilkBlackQty);
         System.out.println("UMilk Black added to cart !");
+        Thread.sleep(6000);
     }
 
     public AccessoriesPageObject clickAccessoriesButton(){

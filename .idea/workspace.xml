@@ -2,34 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bfc8b51-b6c9-41f5-a418-0ebd7696ec94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AddNewAddressTest.java" afterPath="$PROJECT_DIR$/src/test/java/AddNewAddressTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/base/BasePageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/base/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/AccessoriesPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/AccountInformationPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/CapsulePageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/CheckoutPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/CustomerAddressPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/HomepageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/LoginPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/MachinePageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/MyAccountPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/NewAddressPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/OrderSuccessPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/RegisterPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/nespresso/pages/ShoppingCartPageObject.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CartValidationTest.java" afterPath="$PROJECT_DIR$/src/test/java/CartValidationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CouponCodeLoggedInTest.java" afterPath="$PROJECT_DIR$/src/test/java/CouponCodeLoggedInTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CouponCodeTest.java" afterPath="$PROJECT_DIR$/src/test/java/CouponCodeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DeleteAddressTest.java" afterPath="$PROJECT_DIR$/src/test/java/DeleteAddressTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java" afterPath="$PROJECT_DIR$/src/test/java/EditAccountInfoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HomepageButtonTest.java" afterPath="$PROJECT_DIR$/src/test/java/HomepageButtonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OpenHomepageTest.java" afterPath="$PROJECT_DIR$/src/test/java/OpenHomepageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RegisterCheckoutPurchaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/RegisterCheckoutPurchaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RegisterTest.java" afterPath="$PROJECT_DIR$/src/test/java/RegisterTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/base/BasePageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/base/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/base/BaseTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccessoriesPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/AccessoriesPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/AccountInformationPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/AccountInformationPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CheckoutPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/CheckoutPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CustomerAddressPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/CustomerAddressPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/LoginPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MachinePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/MyAccountPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/MyAccountPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/NewAddressPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/NewAddressPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/OrderSuccessPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/OrderSuccessPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/RegisterPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/nespresso/pages/ShoppingCartPageObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,29 +41,31 @@
   <component name="ExportTestResults" outputFolder="D:/automation reports" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingCartPageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java">
+      <file leaf-file-name="CartValidationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CartValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3451">
-              <caret line="257" column="5" lean-forward="false" selection-start-line="257" selection-start-column="5" selection-end-line="257" selection-end-column="5" />
-              <folding>
-                <element signature="e#2791#2792#0" expanded="true" />
-                <element signature="e#2843#2844#0" expanded="true" />
-                <element signature="e#9170#9171#0" expanded="true" />
-                <element signature="e#9222#9223#0" expanded="true" />
-                <element signature="e#9260#9261#0" expanded="true" />
-                <element signature="e#9304#9305#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <file leaf-file-name="ShoppingCartPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="-3242">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#2891#2892#0" expanded="true" />
+                <element signature="e#2943#2944#0" expanded="true" />
+                <element signature="e#9270#9271#0" expanded="true" />
+                <element signature="e#9322#9323#0" expanded="true" />
+                <element signature="e#9360#9361#0" expanded="true" />
+                <element signature="e#9404#9405#0" expanded="true" />
+                <element signature="e#9622#9623#0" expanded="true" />
+                <element signature="e#9666#9667#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +73,8 @@
       <file leaf-file-name="CapsulePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,58 +83,70 @@
       <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BasePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
-                <element signature="e#1629#1630#0" expanded="true" />
                 <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-                <element signature="e#2632#2633#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouponCodeTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CouponCodeTest.java">
+      <file leaf-file-name="MachinePageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouponCodeLoggedInTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CouponCodeLoggedInTest.java">
+      <file leaf-file-name="LoginPurchaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="63" column="23" lean-forward="false" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterPageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomepageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -200,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CheckoutPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/RegisterPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/LoginPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CartValidationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/HomepageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/base/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nespresso/pages/CapsulePageObject.java" />
@@ -209,6 +216,14 @@
         <option value="$PROJECT_DIR$/src/test/java/CouponCodeLoggedInTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CouponCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CartValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsp/base/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -448,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Selenium_automation/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginPurchaseTest">
     <configuration default="false" name="D:/Selenium_automation/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Selenium_automation" />
@@ -460,34 +475,6 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegisterCheckoutPurchaseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Selenium_automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterCheckoutPurchaseTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -561,14 +548,42 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CouponCodeLoggedInTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AddNewAddressTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Selenium_automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CouponCodeLoggedInTest" />
+      <option name="MAIN_CLASS_NAME" value="AddNewAddressTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoginPurchaseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Selenium_automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginPurchaseTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -871,18 +886,18 @@
       <item index="0" class="java.lang.String" itemvalue="Maven.RunJobSearch" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.OpenHomepageTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.D:/Selenium_automation/src/test/resources/testng.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RegisterCheckoutPurchaseTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CartValidationTest" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.CouponCodeTest" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.CouponCodeLoggedInTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CartValidationTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CouponCodeTest" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.AddNewAddressTest" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.LoginPurchaseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.D:/Selenium_automation/src/test/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CouponCodeTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CouponCodeLoggedInTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CartValidationTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RegisterCheckoutPurchaseTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.LoginPurchaseTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.D:/Selenium_automation/src/test/resources/testng.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CartValidationTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AddNewAddressTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CouponCodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,35 +918,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CouponCodeLoggedInTest - 2017.08.04 at 17h 15m 57s.xml">
-      <configuration name="CouponCodeLoggedInTest" configurationId="TestNG" />
+    <history-entry file="CartValidationTest - 2017.08.09 at 12h 42m 56s.xml">
+      <configuration name="CartValidationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CouponCodeTest - 2017.08.04 at 17h 35m 38s.xml">
-      <configuration name="CouponCodeTest" configurationId="TestNG" />
+    <history-entry file="CartValidationTest - 2017.08.09 at 12h 44m 13s.xml">
+      <configuration name="CartValidationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CouponCodeTest - 2017.08.04 at 18h 07m 46s.xml">
-      <configuration name="CouponCodeTest" configurationId="TestNG" />
+    <history-entry file="CartValidationTest - 2017.08.09 at 12h 48m 28s.xml">
+      <configuration name="CartValidationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CouponCodeTest - 2017.08.04 at 18h 09m 29s.xml">
-      <configuration name="CouponCodeTest" configurationId="TestNG" />
+    <history-entry file="CartValidationTest - 2017.08.09 at 12h 54m 40s.xml">
+      <configuration name="CartValidationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CouponCodeTest - 2017.08.04 at 18h 11m 48s.xml">
-      <configuration name="CouponCodeTest" configurationId="TestNG" />
+    <history-entry file="CartValidationTest - 2017.08.09 at 12h 56m 16s.xml">
+      <configuration name="CartValidationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CouponCodeTest - 2017.08.04 at 18h 18m 35s.xml">
-      <configuration name="CouponCodeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.01 at 18h 53m 41s.xml">
+    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.09 at 13h 24m 01s.xml">
       <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.04 at 11h 36m 57s.xml">
+    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.09 at 13h 54m 15s.xml">
       <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.04 at 12h 03m 25s.xml">
-      <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="LoginPurchaseTest - 2017.08.09 at 13h 56m 57s.xml">
+      <configuration name="LoginPurchaseTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Selenium_automation_src_test_resources_testng_xml - 2017.08.07 at 12h 50m 37s.xml">
-      <configuration name="D:/Selenium_automation/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="LoginPurchaseTest - 2017.08.09 at 13h 59m 45s.xml">
+      <configuration name="LoginPurchaseTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPurchaseTest - 2017.08.09 at 14h 24m 23s.xml">
+      <configuration name="LoginPurchaseTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -945,6 +960,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -955,13 +971,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09008529" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43336946" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43336946" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21481876" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21481876" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1128,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/MyAccountPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -1200,52 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="e#940#941#0" expanded="false" />
-            <element signature="e#968#969#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#974#975#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CartValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="108" column="55" lean-forward="false" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeleteAddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1262,33 +1225,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/AccountInformationPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#2632#2633#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,43 +1241,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="257" column="5" lean-forward="false" selection-start-line="257" selection-start-column="5" selection-end-line="257" selection-end-column="5" />
-          <folding>
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2843#2844#0" expanded="true" />
-            <element signature="e#9170#9171#0" expanded="true" />
-            <element signature="e#9222#9223#0" expanded="true" />
-            <element signature="e#9260#9261#0" expanded="true" />
-            <element signature="e#9304#9305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CouponCodeLoggedInTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="63" column="23" lean-forward="false" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1349,21 +1259,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CouponCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
+        <state relative-caret-position="374">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/LoginPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#992#993#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/HomepageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/CapsulePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/ShoppingCartPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3242">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#2891#2892#0" expanded="true" />
+            <element signature="e#2943#2944#0" expanded="true" />
+            <element signature="e#9270#9271#0" expanded="true" />
+            <element signature="e#9322#9323#0" expanded="true" />
+            <element signature="e#9360#9361#0" expanded="true" />
+            <element signature="e#9404#9405#0" expanded="true" />
+            <element signature="e#9622#9623#0" expanded="true" />
+            <element signature="e#9666#9667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/RegisterPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CartValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPurchaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/pages/MachinePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsp/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

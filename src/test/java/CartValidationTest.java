@@ -30,7 +30,6 @@ public class CartValidationTest extends BaseTest {
         //add some products
         CapsulePageObject capsulePage = homepage.clickCapsuleButton();
         capsulePage.addLivanto();
-        String livantoPrice = capsulePage.getLivantoPrice();
         Thread.sleep(10000);
         String cartWithItems = capsulePage.getCartHeaderText();
         Assert.assertFalse(expectedEmptyCartStatus.equals(cartWithItems), "The cart is still empty ! ");
@@ -39,6 +38,7 @@ public class CartValidationTest extends BaseTest {
         shoppingCart.waitForCartPageToLoad();
 
         //Check item base price
+        String livantoPrice = shoppingCart.getLivantoPrice();
         String actualPrice = shoppingCart.getProductPrice();
         Assert.assertTrue(livantoPrice.equals(actualPrice), "The price is wrong ! " + "\nExpected: " + livantoPrice + "\nActual: " + actualPrice);
         System.out.println("Prices match ! \nExpected : " + livantoPrice + "\nActual: " + actualPrice);

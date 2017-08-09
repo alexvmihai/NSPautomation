@@ -16,7 +16,7 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     private By romaAdd = By.xpath(".//*[@id='add-to-cart-272']/div/div/button");
     private By romaQty = By.xpath(".//*[@id='add-to-cart-272']/div/div/div/div[1]/table/tbody/tr[2]/td[5]");
     private By homepageButton = By.xpath(".//*[@id='header']/div/a/img");
-    private By livantoPrice = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[4]/div[3]/ul/li[14]/div/div[1]");
+
 
     public CapsulePageObject(WebDriver driver) {
         super(driver);
@@ -58,8 +58,6 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
         System.out.println("Capsules added !");
     }
 
-    public String getLivantoPrice(){
-        return getText(livantoPrice);
-    }
+
 
 }

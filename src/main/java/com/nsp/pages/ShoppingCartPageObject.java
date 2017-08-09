@@ -30,6 +30,7 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
     private By couponSuccessMessage = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/ul/li/ul/li/span");
     private By discountText = By.xpath(".//*[@id='shopping-cart-totals-table']/tbody/tr[2]/td[2]/span");
     private By cancelButton = By.xpath(".//*[@id='discount-coupon-form']/div/div/div[2]/div/button[2]");
+    private By livantoPrice = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[3]/span/span");
 
 
     public ShoppingCartPageObject(WebDriver driver) {
@@ -255,6 +256,10 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
         System.out.println("Clicking on cancel...");
         clickOn(cancelButton);
         Thread.sleep(15000);
+    }
+
+    public String getLivantoPrice(){
+        return getText(livantoPrice);
     }
 
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
  * Created by alex.mihai on 5/12/2017.
  */
 public class HomepageObject extends BasePageObject<HomepageObject> {
-    private String homePageURL = "https://www-pprd-ru.nsp.com/ru/en/";
+    private String homePageURL = "https://www-pprd-ru.nespresso.com/ru/en/";
     protected By capsuleButton = By.cssSelector(".level0.has-children.color-blue.icon-capsule");
     protected By homepageButton = By.xpath(".//*[@id='header']/div/a/img");
     protected By footer = By.xpath(".//*[@id='top']/body/div[1]/div/div[4]/div");

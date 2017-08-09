@@ -8,9 +8,9 @@ import org.openqa.selenium.WebDriver;
  * Created by alex.mihai on 5/8/2017.
  */
 public class LoginPageObject extends BasePageObject<LoginPageObject> {
-    private static final String URL = "https://nsp-admin:o123123@www-pprd-ru.nsp.com/ru/en/customer/account/login/";
-    private static final String prodURL = "https://www.nsp.com/ru/en/customer/account/login/";
-    private static final String intURL = "https://nsp-admin:o123123@www-int-ru.nsp.com/ru/en/customer/account/login/";
+    private static final String URL = "https://nsp-admin:o123123@www-pprd-ru.nespresso.com/ru/en/customer/account/login/";
+    private static final String prodURL = "https://www.nespresso.com/ru/en/customer/account/login/";
+    private static final String intURL = "https://nespresso-admin:o123123@www-int-ru.nespresso.com/ru/en/customer/account/login/";
     private By emailField = By.xpath("//input[@id='email']");
     private By passwordField = By.xpath("//input[@id='pass']");
     private By logInButton = By.xpath(".//*[@id='send2']");
