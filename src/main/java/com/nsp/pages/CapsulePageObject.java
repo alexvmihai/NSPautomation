@@ -17,7 +17,6 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     private By romaQty = By.xpath(".//*[@id='add-to-cart-272']/div/div/div/div[1]/table/tbody/tr[2]/td[5]");
     private By homepageButton = By.xpath(".//*[@id='header']/div/a/img");
 
-
     public CapsulePageObject(WebDriver driver) {
         super(driver);
     }
@@ -33,8 +32,8 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     }
 
     public MachinePageObject clickMachineButton() throws InterruptedException {
-        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-700)");
-        Thread.sleep(500);
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-1200)");
+        Thread.sleep(5000);
         System.out.println("Clicking on machine button...");
         clickOn(machineButton);
         return new MachinePageObject(driver);
@@ -42,6 +41,7 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
 
     public void addLivanto() throws InterruptedException {
         System.out.println("Adding 100 Livanto capsules to cart...");
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,1000)");
         clickOn(livantoAdd);
         Thread.sleep(10000);
         clickOn(livantoQty);

@@ -9,8 +9,8 @@ import org.openqa.selenium.WebDriver;
  */
 public class AccessoriesPageObject extends BasePageObject<AccessoriesPageObject> {
     private By accessoriesAddressTree = By.cssSelector(".category5>strong");
-    private By espressoSpoonAdd = By.xpath(".//*[@id='add-to-cart-40']/div/div/button");
-    private By espressoSpoonQty = By.xpath(".//*[@id='add-to-cart-40']/div/div/div/div[1]/table/tbody/tr[1]/td[1]");
+    private By espressoSpoonAdd = By.xpath(".//*[@id='add-to-cart-73']/div/div/button");
+    private By espressoSpoonQty = By.xpath(".//*[@id='add-to-cart-73']/div/div/div/div[1]/table/tbody/tr[1]/td[1]");
     private By bonbonniereAdd = By.xpath(".//*[@id='add-to-cart-65']/div/div/button");
     private By bonbonniereQty = By.xpath(".//*[@id='add-to-cart-65']/div/div/div/div[1]/table/tbody/tr[1]/td[1]");
 
@@ -27,7 +27,7 @@ public class AccessoriesPageObject extends BasePageObject<AccessoriesPageObject>
         clickOn(espressoSpoonAdd);
         Thread.sleep(2000);
         clickOn(espressoSpoonQty);
-        System.out.println("Espresso Spoon added to cart !");
+        System.out.println("Pixie Clip added to cart !");
     }
 
     public void addBonbonniere() throws InterruptedException {

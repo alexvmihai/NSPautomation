@@ -74,7 +74,7 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
         type(street, streetField);
         type(building, buildingField);
         try {
-            Thread.sleep(3000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -124,7 +124,7 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
     public CheckoutPageObject clickBillingContinueButton() throws InterruptedException{
         System.out.println("Clicking on Billing Continue button...");
         clickOn(billingContinueButton);
-        Thread.sleep(6000);
+        Thread.sleep(12000);
         return new CheckoutPageObject(driver);
     }
 }

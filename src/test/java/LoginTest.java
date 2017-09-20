@@ -12,7 +12,7 @@ public class LoginTest extends BaseTest{
     public void positiveLogInTest() throws InterruptedException {
         LoginPageObject loginPage = new LoginPageObject(driver);
         String expectedTitle = "My Account";
-        String expectedMemberNumber = "Your member number is: 1269998";
+        String expectedMemberNumber = "Your member number is: 484558";
 
         // Open Nespresso Login page
         loginPage.openLogInPage();

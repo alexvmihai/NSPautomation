@@ -12,6 +12,7 @@ public class AddNewAddressTest extends LoginTest{
     public void AddNewAddress() throws InterruptedException {
         MyAccountPageObject accountPage = new MyAccountPageObject(driver);
         CustomerAddressPageObject myAddressesPage = accountPage.clickMyAddresses();
+        myAddressesPage.ClosePopUp();
         myAddressesPage.waitForAddressPageToLoad();
         NewAddressPageObject newAddressFormPage = myAddressesPage.clickAddNewAddress();
         newAddressFormPage.waitForAddressFormToLoad();

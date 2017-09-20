@@ -2,6 +2,7 @@ package com.nsp.pages;
 
 import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 
@@ -10,8 +11,8 @@ import org.openqa.selenium.WebDriver;
  */
 public class MachinePageObject extends BasePageObject <MachinePageObject> {
     private By machineAddressTree = By.cssSelector(".category4>strong");
-    private By uMilkBlackAdd = By.xpath(".//*[@id='add-to-cart-202']/div/div/button");
-    private By uMilkBlackQty = By.xpath(".//*[@id='add-to-cart-202']/div/div/div/div[1]/table/tbody/tr[1]/td[1]");
+    private By uMilkBlackAdd = By.xpath(".//*[@id='add-to-cart-223']/div/div/button");
+    private By uMilkBlackQty = By.xpath(".//*[@id='add-to-cart-223']/div/div/div/div[1]/table/tbody/tr[1]/td[1]");
     private By accessoriesButton = By.xpath(".//*[@id='nav']/ol/li[3]/a");
 
 
@@ -31,8 +32,10 @@ public class MachinePageObject extends BasePageObject <MachinePageObject> {
         Thread.sleep(6000);
     }
 
-    public AccessoriesPageObject clickAccessoriesButton(){
+    public AccessoriesPageObject clickAccessoriesButton() throws InterruptedException {
         System.out.println("Opening the accessories page...");
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,-700)");
+        Thread.sleep(5000);
         clickOn(accessoriesButton);
         return new AccessoriesPageObject(driver);
     }

@@ -7,8 +7,8 @@ import org.openqa.selenium.*;
  * Created by alex.mihai on 5/17/2017.
  */
 public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObject>{
-    private By shoppingCartHeader = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/div[1]/h1");
-    private By proceedToCheckoutButton = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[2]/button");
+    private By shoppingCartHeader = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div/div[1]");
+    private By proceedToCheckoutButton = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div/div[2]/div/ul/li[2]/button");
     private By emptyCartButton = By.xpath(".//*[@id='empty_cart_button']");
     private By updateCartButton = By.xpath(".//*[@id='shopping-cart-table']/tfoot/tr/td/button[3]");
     private By continueButton = By.xpath(".//*[@id='shopping-cart-table']/tfoot/tr/td/button[4]");
@@ -94,8 +94,9 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
         type(num, inputQty);
     }
 
-    public void updateCart(){
+    public void updateCart() throws InterruptedException {
         clickOn(updateCartButton);
+        Thread.sleep(6000);
     }
 
     public boolean checkVisibleProductImg(){
@@ -241,7 +242,7 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
     public void clickApply() throws InterruptedException {
         System.out.println("Clicking on apply...");
         clickOn(applyButton);
-        Thread.sleep(15000);
+        Thread.sleep(20000);
     }
 
     public String getCouponMsg(){

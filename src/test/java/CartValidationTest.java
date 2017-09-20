@@ -29,6 +29,7 @@ public class CartValidationTest extends BaseTest {
 
         //add some products
         CapsulePageObject capsulePage = homepage.clickCapsuleButton();
+        capsulePage.waitForCapsulePageToLoad();
         capsulePage.addLivanto();
         Thread.sleep(10000);
         String cartWithItems = capsulePage.getCartHeaderText();
