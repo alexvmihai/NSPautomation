@@ -31,6 +31,7 @@ public class AccessoriesPageObject extends BasePageObject<AccessoriesPageObject>
     }
 
     public void addBonbonniere() throws InterruptedException {
+        Thread.sleep(4000);
         clickOn(bonbonniereAdd);
         Thread.sleep(2000);
         clickOn(bonbonniereQty);

@@ -1,6 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Smoke" verbose="1" >
+    <listeners>
+        <listener class-name="com.nsp.base.TestListener"></listener>
+    </listeners>
+
     <test name="OpenHomepageTest" >
         <classes>
             <class name="OpenHomepageTest" >
@@ -55,21 +59,27 @@
             </class>
         </classes>
     </test>
-    <test name = "CouponCodeLoggedInTest">
-        <classes>
-            <class name = "CouponCodeLoggedInTest">
-            </class>
-        </classes>
-    </test>
     <test name = "Register Checkout Purchase test">
         <classes>
             <class name ="RegisterCheckoutPurchaseTest">
             </class>
         </classes>
     </test>
+    <test name = "CouponCodeLoggedInTest">
+        <classes>
+            <class name = "CouponCodeLoggedInTest">
+            </class>
+        </classes>
+    </test>
     <test name="Register" >
         <classes>
             <class name="RegisterTest">
+            </class>
+        </classes>
+    </test>
+    <test name="BackEndRegister" >
+        <classes>
+            <class name="BackEndRegisterTest">
             </class>
         </classes>
     </test>

@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
  */
 public class BackEndRegisterTest extends BaseTest {
     @Test
-    public void BackEndRegisterTest(){
+    public void BackEndRegisterTest() throws InterruptedException {
+        driver.manage().deleteAllCookies();
         String username = "amihai";
         String password = "H.A.M.15:45Icarus1545!!";
         BackEndHomepageObject backEndHomepage = new BackEndHomepageObject(driver);

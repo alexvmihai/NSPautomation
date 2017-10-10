@@ -20,7 +20,7 @@ public class HomepageButtonTest extends BaseTest {
         HomepageObject homePage2 = capsulePage.clickHomepageLogo();
         homePage2.waitForHomepageToLoad();
         System.out.println("Homepage loaded !");
-        String expectedPageTitle = "Home page";
+        String expectedPageTitle = "Nespresso: кофе-капсулы и кофемашины. Официальный сайт в России.";
         String actualPageTitle = homePage2.getTitle();
         Assert.assertTrue(expectedPageTitle.equals(actualPageTitle), "Page title not correct !" + "\nExpected: " + expectedPageTitle + "\nActual title: " + actualPageTitle);
         System.out.println("Test Passed !");

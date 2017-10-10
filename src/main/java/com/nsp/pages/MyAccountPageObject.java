@@ -8,11 +8,11 @@ import org.openqa.selenium.WebDriver;
  * Created by alex.mihai on 5/8/2017.
  */
 public class MyAccountPageObject extends BasePageObject<MyAccountPageObject> {
-    private By memberNumber = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[4]/div/div/div[3]");
-    private By myAccount = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[3]/div/div[1]/strong/span");
-    private By personalInfo = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[2]/a");
+    private By memberNumber = By.cssSelector(".member-number");
+    private By myAccount = By.cssSelector(".block-title>strong>span");
+    private By personalInfo = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div/div[2]/ul/li[2]/a");
     private By contactPreferences = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[5]/a");
-    private By myAddresses = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[3]/div/div[2]/ul/li[3]/a/span");
+    private By myAddresses = By.cssSelector(".nav-item-addresses>a>span");
 
     public By registerSuccess = By.cssSelector(".success-msg>ul>li>span");
 

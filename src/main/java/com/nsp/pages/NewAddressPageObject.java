@@ -32,6 +32,7 @@ public class NewAddressPageObject extends BasePageObject<NewAddressPageObject> {
         type(firstName, firstNameField);
         type(lastName, lastNameField);
         type(city, cityField);
+        Thread.sleep(4000);
         type(street, streetField);
         type(building, buildingField);
         Thread.sleep(7000);

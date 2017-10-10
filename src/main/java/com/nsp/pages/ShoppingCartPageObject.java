@@ -7,14 +7,14 @@ import org.openqa.selenium.*;
  * Created by alex.mihai on 5/17/2017.
  */
 public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObject>{
-    private By shoppingCartHeader = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div/div[1]");
-    private By proceedToCheckoutButton = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div/div[2]/div/ul/li[2]/button");
+    private By shoppingCartHeader = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div/div[1]");
+    private By proceedToCheckoutButton = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div/div[2]/div/ul/li[2]/button");
     private By emptyCartButton = By.xpath(".//*[@id='empty_cart_button']");
     private By updateCartButton = By.xpath(".//*[@id='shopping-cart-table']/tfoot/tr/td/button[3]");
     private By continueButton = By.xpath(".//*[@id='shopping-cart-table']/tfoot/tr/td/button[4]");
     private By inputQty = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[4]/input");
     private By grandTotal = By.xpath(".//*[@id='shopping-cart-totals-table']/tfoot/tr[1]/td[2]/strong/span");
-    private By checkoutButton = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[2]/button");
+    private By checkoutButton = By.cssSelector(".button.btn-proceed-checkout.btn-checkout");
     private By productImg = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[1]/a/img");
     private By productName = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[2]/h2/a");
     private By productSKU = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[2]/div");
@@ -24,12 +24,12 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
     private By applyButton = By.xpath(".//*[@id='discount-coupon-form']/div/div/div[2]/div/button");
     private By discountCodes = By.xpath(".//*[@id='discount-coupon-form']/div/strong");
     private By tax = By.xpath(".//*[@id='shopping-cart-totals-table']/tfoot/tr[2]/td[2]/span");
-    private By emptyCartHeader = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/h1");
-    private By emptyCartP1 = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[3]/p[1]");
-    private By emptyCartP2 = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[3]/p[2]");
-    private By couponSuccessMessage = By.xpath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[2]/ul/li/ul/li/span");
+    private By emptyCartHeader = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div[1]/h1");
+    private By emptyCartP1 = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div[2]/p[1]");
+    private By emptyCartP2 = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div[2]/p[2]");
+    private By couponSuccessMessage = By.xpath(".//*[@id='top']/body/div[2]/div/div[2]/div/div[2]/div/ul/li/ul/li");
     private By discountText = By.xpath(".//*[@id='shopping-cart-totals-table']/tbody/tr[2]/td[2]/span");
-    private By cancelButton = By.xpath(".//*[@id='discount-coupon-form']/div/div/div[2]/div/button[2]");
+    private By cancelButton = By.cssSelector(".button2.cancel-coupon");
     private By livantoPrice = By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[3]/span/span");
 
 
@@ -255,6 +255,7 @@ public class ShoppingCartPageObject extends BasePageObject<ShoppingCartPageObjec
 
     public void clickCancel() throws InterruptedException {
         System.out.println("Clicking on cancel...");
+        waitForVisibilityOf(cancelButton);
         clickOn(cancelButton);
         Thread.sleep(15000);
     }

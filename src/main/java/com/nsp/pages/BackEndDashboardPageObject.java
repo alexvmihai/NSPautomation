@@ -13,8 +13,8 @@ public class BackEndDashboardPageObject extends BasePageObject<BackEndDashboardP
     private By mgmPrompt = By.xpath(".//*[@id='message-popup-window']/div[1]/a");
     private By dashboardText = By.xpath(".//*[@id='page:main-container']/div[2]/table/tbody/tr/td/h3");
     private By interfaceLocale = By.xpath(".//*[@id='interface_locale']");
-    private By customers = By.xpath(".//*[@id='nav']/li[6]/a/span");
-    private By manageCustomers = By.xpath(".//*[@id='nav']/li[6]/ul/li[1]/a/span");
+    private By customers = By.xpath("html/body/div[1]/div[1]/div[3]/ul/li[6]/a/span");
+    private By manageCustomers = By.xpath("//span[contains(.,'Manage Customers')]");
 
 
 
@@ -30,14 +30,25 @@ public class BackEndDashboardPageObject extends BasePageObject<BackEndDashboardP
         waitForVisibilityOf(dashboardText);
     }
 
+    public void waitForDashboardToLoad(){
+        waitForVisibilityOf(dashboardText);
+
+    }
+
     public void setEnglish(){
         WebElement interfaceLocale = driver.findElement(By.xpath(".//*[@id='interface_locale']"));
         Select dropdown = new Select(interfaceLocale);
         dropdown.selectByValue("en_US");
     }
 
-    public BackEndManageCustomersPageObject manageCustomers(){
+    public BackEndManageCustomersPageObject manageCustomers() throws InterruptedException {
+        Thread.sleep(4000);
+        System.out.println("Clicking customers");
         clickOn(customers);
+        clickOn(customers);
+        clickOn(customers);
+        Thread.sleep(2000);
+        System.out.println("Clicking Manage");
         clickOn(manageCustomers);
         return new BackEndManageCustomersPageObject(driver);
     }
