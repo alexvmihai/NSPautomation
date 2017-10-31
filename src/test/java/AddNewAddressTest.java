@@ -12,7 +12,8 @@ public class AddNewAddressTest extends LoginTest{
     public void AddNewAddress() throws InterruptedException {
         MyAccountPageObject accountPage = new MyAccountPageObject(driver);
         CustomerAddressPageObject myAddressesPage = accountPage.clickMyAddresses();
-//        myAddressesPage.ClosePopUp();
+        Thread.sleep(15000);
+        myAddressesPage.closeiFrame();
         myAddressesPage.waitForAddressPageToLoad();
         NewAddressPageObject newAddressFormPage = myAddressesPage.clickAddNewAddress();
         newAddressFormPage.waitForAddressFormToLoad();
@@ -20,8 +21,8 @@ public class AddNewAddressTest extends LoginTest{
         String firstName = "Smoke";
         String lastName = "Smoke";
         String city = "Seoul";
-        String street = "Street 10";
-        String building = "building 1234 bloc 2";
+        String street = "Корея, Республика, г Сеул";
+        String building = "Корея, Республика, г Сеул";
         String zipCode = "105005";
         String remark = "This is an address added by TestNG.";
 

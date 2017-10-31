@@ -60,12 +60,13 @@ public class RegisterCheckoutPurchaseTest extends BaseTest {
         //Generate random phone
         long number = (long)Math.floor(Math.random() * 9.0E9D) + 1000000000L;
         String phone = Long.toString(number);
+        System.out.println(phone);
 
         String password = "Password123";
         String civility = "Mr";
         String city = "Seoul";
-        String street = "Street 10";
-        String building = "building 1234";
+        String street = "Корея, Республика, г Сеул";
+        String building = "Корея, Республика, г Сеул";
         String postalCode = "105005";
         String remark = "This is a test remark.";
         String expectedOrderSuccessMessage = "Your order has been received.";

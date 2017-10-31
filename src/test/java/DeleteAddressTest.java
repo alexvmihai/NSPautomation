@@ -13,6 +13,7 @@ public class DeleteAddressTest extends LoginTest {
 
         //Click on My addresses from My Account
         CustomerAddressPageObject myAddressesPage = accountPage.clickMyAddresses();
+        myAddressesPage.closeiFrame();
         myAddressesPage.waitForAddressPageToLoad();
 
         //Save the first address in the list - to be deleted

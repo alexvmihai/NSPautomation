@@ -37,9 +37,30 @@ public class BasePageObject<T> {
             return false;
         }
     }
+
+    public boolean isiFramePresent() {
+        try {
+            driver.findElement(By.cssSelector(".dbck_middle iframe")).click();
+            System.out.println("Iframe displayed !! Switching back...");
+            return true;
+        } catch (NoSuchElementException Ex) {
+            return false;
+        }
+    }
+
     public void acceptPrompt() throws InterruptedException {
         if (isAlertPresent()){
             driver.switchTo().alert().accept();
+        }
+        Thread.sleep(6000);
+    }
+
+    public void closeiFrame() throws InterruptedException {
+        if (isiFramePresent()){
+            driver.switchTo().frame(driver.findElement(By.cssSelector(".dbck_middle iframe")));
+            driver.findElement(By.xpath("html/body/div[1]/div[3]/input")).click();
+            driver.switchTo().defaultContent();
+            System.out.println("FUCKING IFRAME CLOSED !");
         }
         Thread.sleep(6000);
     }

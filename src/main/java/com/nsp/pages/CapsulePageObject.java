@@ -16,6 +16,7 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
     private By romaAdd = By.xpath(".//*[@id='add-to-cart-272']/div/div/button");
     private By romaQty = By.xpath(".//*[@id='add-to-cart-272']/div/div/div/div[1]/table/tbody/tr[2]/td[5]");
     private By homepageButton = By.xpath(".//*[@id='header']/div/a/img");
+    private By kazaarPDP = By.xpath("html/body/div[2]/div/div[2]/div/div[4]/div[2]/ul/li[12]/a/img");
 
     public CapsulePageObject(WebDriver driver) {
         super(driver);
@@ -56,6 +57,12 @@ public class CapsulePageObject extends BasePageObject<CapsulePageObject> {
         clickOn(romaQty);
         Thread.sleep(15000);
         System.out.println("Capsules added !");
+    }
+
+    public KazaarPDPObject openKazaarPDP (){
+        System.out.println("Clicking on Kazaar...");
+        clickOn(kazaarPDP);
+        return new KazaarPDPObject(driver);
     }
 
 

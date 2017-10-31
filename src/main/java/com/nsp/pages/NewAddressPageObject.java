@@ -3,6 +3,7 @@ package com.nsp.pages;
 import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -34,7 +35,13 @@ public class NewAddressPageObject extends BasePageObject<NewAddressPageObject> {
         type(city, cityField);
         Thread.sleep(4000);
         type(street, streetField);
+        Thread.sleep(3000);
+        driver.findElement(streetField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(streetField).sendKeys((Keys.RETURN));
         type(building, buildingField);
+        Thread.sleep(3000);
+        driver.findElement(buildingField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(buildingField).sendKeys((Keys.RETURN));
         Thread.sleep(7000);
         type(zipcode, zipcodeField);
         type(remark, remarkField);

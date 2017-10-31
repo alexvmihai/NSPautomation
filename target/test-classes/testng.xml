@@ -83,5 +83,11 @@
             </class>
         </classes>
     </test>
+    <test name="AddToCartFromPDP">
+        <classes>
+            <class name="AddToCartFromPDP">
+            </class>
+        </classes>
+    </test>
 
 </suite>

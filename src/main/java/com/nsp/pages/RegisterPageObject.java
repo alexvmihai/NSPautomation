@@ -2,6 +2,7 @@ package com.nsp.pages;
 
 import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -57,7 +58,7 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
     }
 
     public void fillInRegisterForm(String firstName, String lastName, String email, String password, String civility, String city,
-                                   String street, String building, String postalCode, String remark, String phone){
+                                   String street, String building, String postalCode, String remark, String phone) throws InterruptedException {
         System.out.println("Filling in the register form...");
         //General Info
         type(firstName, firstNameField);
@@ -72,7 +73,15 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
         type(lastName, lastNameAddressField);
         type(city, cityField);
         type(street, streetField);
+        Thread.sleep(3000);
+        driver.findElement(streetField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(streetField).sendKeys((Keys.RETURN));
+        Thread.sleep(3000);
         type(building, buildingField);
+        Thread.sleep(3000);
+        driver.findElement(buildingField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(buildingField).sendKeys((Keys.RETURN));
+        Thread.sleep(3000);
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
@@ -85,7 +94,7 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
     }
 
     public void fillInRegisterFormCheckout(String firstName, String lastName, String email, String password, String civility, String city,
-                                           String street, String building, String postalCode, String remark, String phone){
+                                           String street, String building, String postalCode, String remark, String phone) throws InterruptedException {
         System.out.println("Filling in the register form...");
         //General Info
         type(firstName, firstNameField);
@@ -100,7 +109,13 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
         type(lastName, billingLastNameField);
         type(city, billingCityField);
         type(street, billingStreetField);
+        Thread.sleep(3000);
+        driver.findElement(billingStreetField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(billingStreetField).sendKeys((Keys.RETURN));
         type(building, billingBuildingField);
+        Thread.sleep(3000);
+        driver.findElement(billingBuildingField).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(billingBuildingField).sendKeys((Keys.RETURN));
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -118,7 +133,7 @@ public class RegisterPageObject extends BasePageObject<RegisterPageObject>{
     }
 
     public void waitForRegisterPageToLoad(){
-        waitForVisibilityOf(billingHeader);
+        waitForVisibilityOf(firstNameField);
     }
 
     public CheckoutPageObject clickBillingContinueButton() throws InterruptedException{

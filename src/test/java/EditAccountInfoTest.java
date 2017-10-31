@@ -14,6 +14,7 @@ public class EditAccountInfoTest extends LoginTest {
         MyAccountPageObject accountPage = new MyAccountPageObject(driver);
         String expectedSuccessMessage = "The account information has been saved.";
         AccountInformationPageObject accountInfoPage = accountPage.clickPersonalInfo();
+        accountInfoPage.closeiFrame();
         accountInfoPage.clearFields();
         accountInfoPage.changeFirstName(random);
         accountInfoPage.changeLastName(random);

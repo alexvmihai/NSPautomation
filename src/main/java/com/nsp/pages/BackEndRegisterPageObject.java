@@ -2,6 +2,7 @@ package com.nsp.pages;
 
 import com.nsp.base.BasePageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -43,19 +44,16 @@ public class BackEndRegisterPageObject extends BasePageObject<BackEndRegisterPag
         type(password, passwordField);
     }
 
-    public void fillInAddresses (String civility, String firstname, String lastname, String street, String city, String postalCode, String phone){
+    public void fillInAddresses (String civility, String firstname, String lastname, String street, String city, String postalCode, String phone) throws InterruptedException {
         clickOn(addreses);
         clickOn(addNewAddress);
         type(civility, aCivility);
         type(firstname, aFirstName);
         type(lastname, aLastName);
         type(street, aStreet);
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        type(city, aCity);
+        Thread.sleep(3000);
+        driver.findElement(aStreet).sendKeys((Keys.ARROW_DOWN));
+        driver.findElement(aStreet).sendKeys((Keys.RETURN));
         type(postalCode, aPostalCode);
         type(phone, aPhone);
     }

@@ -21,12 +21,13 @@ public class RegisterTest extends BaseTest {
         //Generate random phone
         long number = (long)Math.floor(Math.random() * 9.0E9D) + 1000000000L;
         String phone = Long.toString(number);
+        System.out.println(phone);
 
         String password = "Password123";
         String civility = "Mr";
-        String city = "Seoul";
-        String street = "Street 10";
-        String building = "building 1234";
+        String city = "Moscow";
+        String street = "Корея, Республика, г Сеул";
+        String building = "Корея, Республика, г Сеул";
         String postalCode = "105005";
         String remark = "This is a test remark.";
         String expectedTitle = "Nespresso RU - Coffee and Espresso Machines";
@@ -36,6 +37,7 @@ public class RegisterTest extends BaseTest {
         //Open Register Page
         registerPage.openRegisterPage();
         registerPage.acceptPrompt();
+        registerPage.waitForRegisterPageToLoad();
 
         //Fill in the register form
         registerPage.fillInRegisterForm(firstName, lastName, email, password, civility, city, street, building, postalCode, remark, phone );
